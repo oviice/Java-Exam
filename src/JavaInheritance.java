@@ -9,7 +9,7 @@ public class JavaInheritance extends Calculator {
         Scanner sc=new Scanner(System.in);
         System.out.print("Please input the number of a : ");
         a=sc.nextInt();
-        System.out.print("Please input the number of b: ");
+        System.out.print("Please input the number of b : ");
         b=sc.nextInt();
         JavaInheritance inheritance=new JavaInheritance();
         inheritance.add(a,b);
